@@ -41,9 +41,9 @@ const fillArray = (start, end) => {
 fillArray(1,5)  //[1,2,3,4,5]
 ```
 ## Work Experience ##
- 1. ***Jun, 2016 - Till Now*** 
+ 1. **Jun, 2016 - Till Now** 
      * EPAM Systems, _Senior Software Testing Engineer_
- 2. ***Jan, 2011 - Dec, 2015*** 
+ 2. **Jan, 2011 - Dec, 2015** 
      * I was working as an _accountant_ in several different  companies. 
     
 ## Education ##
@@ -51,9 +51,9 @@ fillArray(1,5)  //[1,2,3,4,5]
     - _Applied Information Science in Economics_
 
 ## Languages ##
-* English - ***B2*** (According to EPAM English testing)
-* Russian - ***native***
-* Bulgarian - ***Intermediate*** (live and study there)
+* English - **B2** (According to EPAM English testing)
+* Russian - **native**
+* Bulgarian - **Intermediate** (live and study there)
 
 I worked on ***two foreign projects in EPAM***, where I need to use _English_. 
 On the ***first project*** I worked only for a few months. The team was from the **Czech Republic**, so we had to interact in English.
