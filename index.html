@@ -4,9 +4,153 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Licorice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>My CV</title>
 </head>
 <body>
+    <div class="container">
+        <nav class="navContainer">
+            <ul class="navList">
+                <li><a class="navLink" href="#aboutMe">About Me</a></li>
+                <li><a class="navLink" href="#skills">Skills</a></li>
+                <li><a class="navLink" href="#codeExample">Code Example</a></li>
+                <li><a class="navLink" href="#projects">Projects</a></li>
+                <li><a class="navLink" href="#workExperience">Work Experience</a></li>
+                <li><a class="navLink" href="#education">Education</a></li>
+                <li><a class="navLink" href="#languages">Languages</a></li>
+                <li><a class="navLink" href="#contacts">Contacts</a></li>
+            </ul>
+            </nav>
+    <header class="headerContainer">
+        <h1 class="headerMyName">Milena Belianova</h1>
+        <img class="headerMyPhoto" src="img/IMG_1298.JPG" alt="Photo of Milena Belianova">
     
+    </header>
+
+    <main class="mainContainer">
+        <section class="mainRightContainer">
+        <section id="contacts">
+            <h2><span class="rightSectionTitle">Contacts</span></h2>
+            <ul class="contactsList">
+                <li class="contactsListItem">
+                    <img src="img/map.svg" alt="Map icon">
+                    Samara, Russia</li>
+                <li class="contactsListItem">
+                    <img src="img/discord.svg" alt="Discord icon" width="40px" height="40px">
+                    Milena(@Milena-Belianova)</li>
+                <li class="contactsListItem">
+                    <img src="img/telegram.svg" alt="Telegram icon">
+                    Milena Belianova</li>
+                <li class="contactsListItem">
+                    <img src="img/phone.svg" alt="Phone icon">
+                    +79871672847</li>
+                <li class="contactsListItem">
+                    <img src="img/email.svg" alt="Email icon">
+                    milena.belianova@gmail.com</li>
+            </ul>
+        </section>
+
+        <section id="workExperience">
+            <h2><span class="rightSectionTitle">Work Experience</span></h2>
+            <p class="underlined"><b>Jun, 2016 - Till Now</b></p>
+            <p>EPAM Systems, Senior Software Testing Engineer</p>
+            <p class="underlined"><b>Jan, 2011 - Dec, 2015</b></p>
+            <p>I was working as an <i>accountant</i> in several different  companies.</p>
+        </section>
+
+        <section id="education">
+            <h2><span class="rightSectionTitle">Education</span></h2>
+            <p><b>Kaliningrad State Technical University</b></p>
+            <p>Applied Information Science in Economics</p>
+        </section>
+</section>
+
+        <section class="mainPartContainer">
+        <section id="aboutMe">
+            <h2><span class="sectionTitle">About Me</span></h2>
+            <p> I have been working in <b>EPAM Systems</b> since 2016. I am a <i>Senior Software 
+                Testing Engineer</i>. Currently I am on <i>Maternity leave</i>. Before that my work 
+                included automation testing, I interacted a lot with developers, I am familiar 
+                with their work and it seems to me very interesting. I had time to think and I 
+                decided to become a software developer. So, after Maternity leave I want to return
+                 in EPAM and work as a <i>developer</i>.</p>
+        </section>
+
+        <section id="skills">
+            <h2><span class="sectionTitle">Skills</span></h2>
+            <p> My skills mostly include <b>functional and automation testing skill</b>. But now I am 
+                learning and trying to focus and expand my knowledge in:</p>
+            <ul class="skillsList">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>Jest</li>
+            </ul>
+        </section>
+
+        <section id="codeExample"> 
+            <h2><span class="sectionTitle">Code example</span></h2>
+            <pre class="mainCode">
+    const fillArray = (start, end) => {
+        let newArray = [];          
+        if (start <= end) {
+            for (let i = start; i <= end; i++) {
+                newArray.push(i);
+            }
+        } else if (start > end) {
+            for (let i = start; i >= end; i--) {
+                newArray.push(i);
+            }
+        } else {
+            throw "Start or End point are undefined or NaN";
+        }
+        return newArray;
+    };
+    fillArray(1,5)  //[1,2,3,4,5]</pre>
+        </section>
+
+        <section id="projects"> 
+            <h2><span class="sectionTitle">Projects</span></h2>
+            <ul class="projectsList">
+            <li><a class = "projectLink" href="https://Milena-Belianova.github.io/rsschool-cv/cv" target="_blank">CV#1. Markdown</a></li>
+            <li><a class= "projectLink" href="https://Milena-Belianova.github.io/rsschool-cv/" target="_blank">CV#3. HTML, CSS</a></li>
+            </ul>
+        </section>
+
+        <section id="languages">
+            <h2><span class="sectionTitle">Languages</span></h2>
+            <ul>
+                <li>English - <b>B2</b> (According to EPAM English testing)</li>
+                <li>Russian - <b>native</b></li>
+                <li>Bulgarian - <b>Intermediate</b> (live and study there)</li>
+            </ul>
+            <p>I worked on <b>two foreign projects in EPAM</b>, where I need to use <i>English</i>. 
+                On the <b>first project</b> I worked only for a few months. The team was from the <b>Czech Republic</b>, 
+                so we had to interact in English.
+                The <b>second project</b> was more interesting. I worked on it for almost a year and a half. Part of 
+                the customer's team was based in <b>London, UK</b>. So English communication was on a daily basis, including 
+                daily stand-ups, communication with PM, analyst, developer and other people. During this period I was 
+                lucky to visit <b>London</b>, to live and work there for a couple of weeks during the <i>business trip</i>. </p>
+        </section>
+    </section>
+
+    </main>
+
+    <footer class="footerContainer">
+        <div class="footerGithubContainer">
+            <img class="footerGithubSvg" src="img/github.svg" alt="github">
+            <a class="footerMyGithub" href="https://github.com/Milena-Belianova" target="_blank">
+            My GitHub</a>
+        </div>
+        
+        <p class="footerYear">2022</p>
+        <a class="footerRsschool" href="https://rs.school/js-stage0/" target="_blank">
+        <img src="img/rs_school_js.svg" alt="RS School">
+        </a>
+    </footer>
+
+</div>>
 </body>
 </html>
