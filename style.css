@@ -1,1 +1,151 @@
-/*CV styles*/
+.container {
+    font-family: 'Cabin', sans-serif;
+    width: 1000px;
+    margin: 20px auto;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+}
+
+.navLink {
+    color: black;
+    text-decoration: none;
+}
+
+.navList {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    border: 1px solid plum;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0 15px 33px;
+}
+
+.headerMyName {
+    font-family: 'Licorice', cursive;
+    font-size: 110px;
+}
+
+
+.headerMyPhoto {
+  width: 300px;
+  border-radius: 50%;
+  border: 10px solid plum;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mainContainer {
+    display: flex;
+}
+
+.mainRightContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    order:2;
+    background-color: plum;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    min-width: 300px;
+}
+
+
+.rightSectionTitle {
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+.contactsList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+li>img {
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.mainPartContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px 10px 10px 0;
+}
+
+.mainCode {
+    font-size: 16px;
+    background-color: #aca8a8;
+    padding:5px;
+    line-height: normal;
+}
+
+.sectionTitle {
+    background-color: plum;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+.skillsList {
+list-style-type: square;
+}
+
+.projectsList {
+    list-style-type: square;
+}
+
+.projectLink {
+    color: black;
+    text-decoration: none;
+}
+
+.footerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: plum;
+}
+
+.footerGithubContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.footerGithubSvg {
+  width: 30px;
+}
+
+.footerMyGithub {
+  margin-left: 5px;
+  color: black;
+}
+
+.footerYear {
+  font-size: 18px;
+}
+
+.footerRsschool {
+  width: 95px;
+}
